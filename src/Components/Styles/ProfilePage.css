@@ -1,0 +1,142 @@
+.profilePage-x{
+
+
+    
+    max-width:500px;
+    display: flex;
+    flex-direction: column;
+
+    min-width:100%;
+    height:auto;
+
+    margin-top:5em;
+    /* background-color: #005e7f; */
+}
+
+.profilePage{
+    min-width:fit-content;/* whaterver content is there it should fit that content*/
+    box-shadow: 0 0 5px #005e7f,
+    0 0 25px #005e7f,
+    0 0 50px #005e7f,
+    0 0 100px #005e7f;
+    flex:0.5;
+    /* border-right:1px solid var(--twitter-background); */
+    min-width:fit-content;/* whaterver content is there it should fit that content*/
+    /* overflow:hidden; */
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: column;
+
+    max-width:100%;
+    height:auto;
+    /* min-height:100vh; */
+    /* margin:0.5em; */
+    margin-block:1em;
+  
+}
+
+
+
+.image-back img{
+    height:15rem; 
+    width:100%;
+    object-fit: cover;
+
+}
+
+.profile-page-2-img{
+    transform:translateY(-4rem);
+}
+.profile-page-2{
+    width: 100%;
+    height:10%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline:1em;
+
+}
+.add-z {
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%; */
+    object-fit: cover;
+    background: none;
+}
+
+.edit-button{
+    background:none;
+    color:#00bbff;
+    font-size:1.5em;
+    font-weight:bold;
+    padding:0.25em;
+    background-color: none;
+    outline:none;
+    border:1px solid #00bbff;
+}
+
+.edit-button p{
+    background:none;
+}
+
+.profile-page-3{
+    width: 100%;
+    height:auto;
+    /* background-color: aqua; */
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding-inline:1em;  
+}
+
+.profile-page-3 div{
+    width:auto;
+    background: none;
+}
+
+.profile-page-3 div div{
+    margin-block:1.5em;
+}
+
+.profile-page-3-2 ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background: none;
+}
+
+.profile-page-3-2 ul li{
+    background: none;
+    font-size:1.25em;
+    margin-inline:0.5em;
+}
+
+.profile-page-3-1-1 > *{
+    margin:0.25em;
+}
+
+.profile-page-3-1-1 p:first-child{
+    background: none;
+    font-size:2em;
+    font-weight:heavy;
+}
+
+.profile-page-3-1-1 p:last-child{
+    background: none;
+    font-size:1.25em;
+    font-weight:bold;
+}
+
+.fffff{
+    background-color: #005e7f;
+    width:100%;
+    height:100%;
+    color: #fff;
+    font-size:1.25em;
+    
+   
+}

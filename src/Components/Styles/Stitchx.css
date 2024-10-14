@@ -1,0 +1,312 @@
+.post{
+  width:100%;
+  /* max-width:510px;   */
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+ color:#fff;
+ /* background: #141414; */
+ box-shadow: #004a52 0px 0px 30px;
+ font-family:SF Pro Rounded Medium;
+ letter-spacing: 0.02ch;
+ /* margin-block:1em; */
+ /* border:1px solid #00bbff; */
+ margin-block:1.5em;
+}
+
+.h{
+  font-family:SF Pro Rounded Heavy;
+
+}
+.post:first-child{
+  margin-top:1em;
+}
+.first{
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  background: none;
+  font-family:SF Pro Rounded Heavy;
+  padding-inline:0.5em;
+  /* background-color: aqua; */
+}
+
+.first-1{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.post_header{
+   font-family:SF Pro Rounded Heavy;
+
+  margin-left:10px;
+  background: none;
+}
+
+.post_header span{
+  color:#00bbff;
+  font-family: SF Pro Rounded  Heavy;
+  background: none;
+}
+
+.post_header:first-child{
+  margin-top:2em;
+  background: none;
+  
+}
+
+.post__avatar{
+  padding:5px;
+  background: none;
+}
+
+.second{
+  height:auto;
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: #fff; */
+  line-height:1.5em;
+  /* background: none; */
+}
+.post__body {
+  flex: 1;
+  /* padding-inline: 10px; */
+  /* background-color: #00bbff; */
+  /* border-bottom: 1px solid #00bbff; */
+  background: none;
+
+}
+.post__body > img {
+  /* border-radius: 10px; */
+  max-width:200px;
+  max-height:500px;
+  min-height:100%;
+  min-width:100%;
+  border:1px solid #003143;
+  background: none;
+  object-fit: contain;
+  
+
+}
+
+.post_header p{
+  background: none;
+}
+.post__header{
+  background: none;
+}
+.post__header p{
+  padding:2px;
+  background: none;
+}
+
+.post__headerDescription {
+  margin-bottom: 10px;
+  padding:5px;
+  font-size: 15px;
+  color:#fff;
+  text-align: left;
+  background: none;
+}
+
+.post__headerDescription p{
+  background: none;
+}
+
+  .post__headerSpecial {
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+    background: none;
+  }
+
+  .interest{
+    color:#00bbff;
+    font-weight:bold;
+    font-size:14px;
+    background: none;
+  }
+
+  .time{
+    font-weight:normal;
+    background: none;
+  }
+
+    
+  .userIcons{
+    width:50px;
+    height:50px;
+    /* border:1px solid #00bbff; */
+    /* border-radius:1000px; */
+    box-shadow: #00bbff 0px 0px 20px;
+    background: none;
+  }
+
+  .userIconss{
+    width:40px;
+    height:40px;
+    /* border:1px solid #00bbff; */
+    /* border-radius:1000px; */
+    box-shadow: #00bbff 0px 0px 20px;
+    background: none;
+  }
+
+  .post__footer{
+    background: none;
+    /* background-color: #00bbff; */
+  }
+  .post__footer li{
+    padding-block:10px;
+    padding-inline:10px;
+    background: none;
+  }
+
+  .post__footer li div{
+   
+      background: none;
+    
+  }
+   .post__footer li div p{
+   
+    background: none;
+  
+}
+
+
+.stitchx-comment-section{
+ display: flex;
+ flex-direction: column;
+ width:100%;
+ background-color: #003143;
+}
+
+.stitchx-comment-section > *{
+  width:100%;
+}
+
+
+.stitchx-comments-1{
+  margin:0.5em;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: #fff; */
+  /* padding:0.25em; */
+  
+}
+.stitchx-comments-2-all-comments{
+  background-color: #003143;
+  width:100%;
+  align-items:center;
+    }
+.stitchx-comments-2-all-comments{
+background-color: #003143;
+  }
+  
+.stitchx-comments-2{
+  margin:0.5em;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: #004a52 0px 0px 30px;
+  padding:0.5em;
+  
+}
+
+.show-all-comments{
+  background: none;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* padding:0.5em; */
+  
+}
+
+.show-all-comments p{
+  background-color: none;
+  font-weight:bold;
+  font-size:1em;
+  background: none;
+}
+
+.all-comments{
+  background-color: none;
+  font-size:2em;
+
+}
+
+
+.stitchx-comments-2-1{
+  background-color: #00bbff;
+  width:100%;
+ 
+}
+
+.stitchx-comments-2-1-1{
+  
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-around; */
+  /* background-color: #003143; */
+  background-color: none;
+  background: none;
+
+}
+
+.stitchx-comments-2-1-1 > *{
+  
+  margin:0.25em;
+  background-color: none;
+  background: none;
+}
+
+
+
+   .svgg{
+    min-width:30px;
+    min-height:30px;
+    width:2vw;
+    max-width: 40px;
+    max-height: 40px;
+    height:2vw;
+    background: none;
+  }
+
+  
+
+  .comment{
+    height:100%;
+    width:100%;
+    border: none;
+    outline:none;
+    /* background-color:#003143; */
+    border-bottom:1px solid #00bbff;
+    color:#00bbff;
+    font-size:1.25em;
+    padding:0.5em;
+    
+  }
+  
+  @media(max-width:420px){
+    .post{
+      width:100%;
+      min-width:300px
+    }
+
+  }
+
+ 
+

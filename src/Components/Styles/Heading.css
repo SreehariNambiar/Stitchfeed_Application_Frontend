@@ -1,0 +1,32 @@
+.logins{
+    color:#fff;
+    display:flex;
+    width:100%;
+    background:url('../../Assets/Images/custom.svg') ;
+    flex-direction: column;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titles{
+    font-family: SF Pro Rounded Heavy;
+    font-size:2em;
+    background: none;
+    margin-inline:0.5em;
+    margin-top:1em;
+    background: none;
+}
+
+.heading{
+    padding-block:10px;
+    background: none;
+}
+
+.para{
+    /* font-family:SF Pro Rounded Medium; */
+    font-size:0.75em;
+    color:#00bbff;
+    background: none;
+}

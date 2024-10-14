@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="119" height="119" viewBox="0 0 119 119">
+  <defs>
+    <clipPath id="clip-Arrow">
+      <rect width="119" height="119"/>
+    </clipPath>
+  </defs>
+  <g id="Arrow" clip-path="url(#clip-Arrow)">
+    <path id="Union_53" data-name="Union 53" d="M42.217,40.565,0,81.131,42.217,40.565,43.61,41.9l-1.392-1.338,1.392-1.338-1.392,1.338L0,0Z" transform="translate(18.697 81.389) rotate(-90)" fill="none" stroke="#00ff9d" stroke-width="10"/>
+  </g>
+</svg>

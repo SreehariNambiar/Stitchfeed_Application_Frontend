@@ -1,0 +1,24 @@
+<div className='second'>
+        <div className="post__body">
+        <div className="post__header">
+            <div className="post__headerDescription">
+              {/* <p>{text}</p> */}
+              <p>{truncate(text,200)}</p>
+            </div>
+          </div>
+        <img src={image} alt=""/>
+        </div>
+        <ul className="post__footer">
+           {/* <li><Arrow className='svg'/></li> */}
+           
+
+           <li><div>
+           <Arrow className='svgg'/>
+           <p>1.25k</p>
+           </div></li>
+           <li><div>
+           <Comment className='svgg'/>
+           <p>1.25k</p>
+           </div></li>
+          </ul>
+          </div>

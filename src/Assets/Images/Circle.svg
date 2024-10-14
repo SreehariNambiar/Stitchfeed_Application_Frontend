@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <clipPath id="clip-Circle">
+      <rect width="1024" height="1024"/>
+    </clipPath>
+  </defs>
+  <g id="Circle" clip-path="url(#clip-Circle)">
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="512" cy="512" r="512" fill="#fff"/>
+  </g>
+</svg>

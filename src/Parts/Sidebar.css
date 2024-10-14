@@ -1,0 +1,19 @@
+*{
+    background-color: #000;
+}
+
+.sidebar{
+    border-right:1px solid var(--twitter-background);
+    flex:0.25; /* use 30% of the screen */
+    /* min-width:250px; */
+    margin-top:14px;
+    padding-inline: 20px;
+}
+
+@media(max-width:1120px) {
+    .sidebar{
+        display:none;
+    }
+    
+    }
+

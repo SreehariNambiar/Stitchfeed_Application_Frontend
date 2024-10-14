@@ -1,0 +1,20 @@
+.widgets{
+    flex:0.25; /* use 30% of the screen */
+    min-width:250px;
+    margin-top:20px;
+    padding-inline: 20px;
+    /* background: #fff;; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+
+}
+
+@media(max-width:1120px) {
+    .widgets{
+      display:none;
+    }
+    
+}
+

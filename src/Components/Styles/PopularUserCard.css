@@ -1,0 +1,41 @@
+.first-card{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background: none;
+    font-family:SF Pro Rounded Heavy;
+    padding-inline:0.5em;
+    margin-block:0.5em;
+    /* background-color: aqua; */
+  }
+  
+  .first-1-card{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .post_header-card{
+     font-family:SF Pro Rounded Heavy;
+  
+    margin-left:10px;
+    background: none;
+  }
+  
+  .post_header-card span{
+    color:#00bbff;
+    font-family: SF Pro Rounded  Heavy;
+    background: none;
+  }
+  
+  .post_header-card:first-child{
+    margin-top:2em;
+    background: none;
+    
+  }
+  
+  .post__avatar-card{
+    padding:5px;
+    background: none;
+  }

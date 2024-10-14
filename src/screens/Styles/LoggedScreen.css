@@ -1,0 +1,22 @@
+.app{
+    display: flex;
+    height: 100vh;
+    /*twitter has a max width because once you set it to full screen there is a left indentation and right indentation meanss there is a space from the left and the right so we add max-width */
+    max-width:1300px;
+    /* Inorder to center it in the max-width we use the following trick*/
+    margin-left:auto;
+    margin-right:auto;
+    padding:0 10px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /* background-color: aliceblue; */
+}
+
+@media(max-width:1120px) {
+    .app{
+       display:flex;
+       justify-content: center;
+    }
+    
+    }
+

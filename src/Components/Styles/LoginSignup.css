@@ -1,0 +1,57 @@
+.losi{
+    
+    font-family: SF Pro Rounded Heavy;
+    font-weight:bold;
+    font-size:2em;
+    /* background:#00b4cc; */
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.losi li{
+    width:100%;
+    text-align: center;
+    padding:20px;
+    /* border-radius:50px; */
+    margin-block:10px;
+}
+
+.login{
+    border:1px solid #00bbff;
+    color:#00bbff;
+    box-shadow: rgb(0, 187, 255, 0.5) 0px 0px 40px;
+
+}
+
+.signup{
+    background: #00bbff;
+        box-shadow: rgb(0, 187, 255, 0.5) 0px 0px 40px;
+
+    color:#000;;
+}
+
+.login:hover{
+    /* border:1px solid #fff; */
+    color:#fff;
+    cursor:pointer;
+    box-shadow: 0 0 5px #00b4cc,
+    0 0 25px #00b4cc,
+    0 0 50px #00b4cc,
+    0 0 100px #00b4cc;
+    transition:0.2s;
+    transition:0.2s;
+}
+
+.signup:hover{
+    color:#fff;
+    background: #00bbff;
+    cursor:pointer;
+    box-shadow: 0 0 5px #00b4cc,
+    0 0 25px #00b4cc,
+    0 0 50px #00b4cc,
+    0 0 100px #00b4cc;
+    transition:0.2s;
+    transition:0.2s;
+}

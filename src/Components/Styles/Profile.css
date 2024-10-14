@@ -1,0 +1,70 @@
+.profileBlock{
+    margin-top:10px;
+    /* box-shadow: rgb(0, 187, 255, 0.5) 0px 0px 20px; */
+    border:1px solid #002b3d;
+    /* background-color: rgb(0, 0, 0); */
+    /* background-color: aqua; */
+    color:#fff;;
+    border-radius:0px;
+    letter-spacing: 0.05ch;
+    font-family: SF Pro Rounded;
+    padding:10px;
+    font-size:1em;
+    font-weight: 900;
+    /* min-width:20vw; */
+    width:100%;
+    /* margin-inline: 20px;; */
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    /* background:rgba(0, 32, 43, 0.5); */
+    line-height:2.25ch;
+    /* padding:10px; */
+    color:#fff;
+}
+
+
+
+.profileBlock_1 {
+    /* background-color: #002b3d; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileBlock_1 img {
+    width: 50px;
+    height: 50px;
+    /* border-radius: 50%; */
+    object-fit: cover;
+}
+
+.profileBlock_1 div {
+    margin-left: 10px;
+}
+
+.profileBlock:last-child {
+    /* background-color: #002b3d; */
+    display: flex;
+    align-items: right;
+    justify-content: center;
+}
+
+.modal-z {  
+    background-color: #00b3ff;  
+    font-size:1em;
+    padding:1em;
+    left:35em;
+    border: 1px solid #002b3d;
+    position: absolute;
+
+}
+
+.modal-z:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #fff;
+}

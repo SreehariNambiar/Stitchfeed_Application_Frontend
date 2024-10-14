@@ -1,38 +1,250 @@
-.App {
-  text-align: center;
+/*CSS RESET*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    line-height: 1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ol,
+ul {
+    list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+blockquote,
+q {
+    quotes: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* stop the animation during resizing */
+.resize-animation-stopper * {
+    animation: none !important;
+    transition: none !important;
+}
+
+
+
+/* Remeber to add a zooming in the dropdown 3 zoom levels low med high */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* :root {
+    --background:#161616;
+    --background:#121F2A;
+    --background: #000;
+    --color-blue: #00bbff;
+    --color-white: #fff;
+    --color-black: #000;
+    --border-gray:#222;
+    --border-gray-signin: #3a3a3a;
+    --border-gray: #000;
+    --border-dark-gray: #808080;
+    --web-text-gray: #808080;
+} */
+
+/* :root{
+    filter: invert(100%);
+} */
+@font-face {
+    font-family: SF Pro Rounded Heavy;
+    src: url('./Assets/Fonts/FontsFree-Net-SF-Pro-Rounded-Heavy.ttf');
+}
+
+@font-face {
+    font-family: SF Pro Rounded Bold;
+    src: url('./Assets/Fonts/FontsFree-Net-SF-Pro-Rounded-Bold.ttf');
+}
+
+@font-face {
+    font-family: SF Pro Rounded Medium;
+    src: url('./Assets/Fonts/FontsFree-Net-SF-Pro-Rounded-Medium.ttf');
+}
+
+@font-face {
+    font-family: SF Pro Rounded;
+    src: url('./Assets/Fonts/FontsFree-Net-SF-Pro-Rounded-Regular.ttf');
+}
+
+@font-face {
+    font-family: SF Pro Rounded Light;
+    src: url('./Assets/Fonts/FontsFree-Net-SF-Pro-Rounded-Light.ttf');
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Pacifico&family=Secular+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+
+html {
+    font-family:SF Pro Rounded;
+    /* font-size:87.50%; */
+    font-size: 14px;
+    margin-bottom: 0;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+}
+
+body {
+    background-color: #000;
+
+    /* position: fixed; */
+    min-height: 100vh;
+    max-height: 10000vw;
+    width: 100vw;
+    /* overflow-y: auto; */
+}
+
+
+
+body::-webkit-scrollbar {
+    width: 5px;
+    display: none;
+}
+
+body::-webkit-scrollbar-track {
+    background: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #00bbff;
+}
+
+.app{
+    display: flex;
+    height: 100vh;
+    /*twitter has a max width because once you set it to full screen there is a left indentation and right indentation meanss there is a space from the left and the right so we add max-width */
+    max-width:1300px;
+    /* Inorder to center it in the max-width we use the following trick*/
+    margin-left:auto;
+    margin-right:auto;
+    padding:0 10px;
+    background-color: #000;
+    /* overflow:auto; */
+}
+
+

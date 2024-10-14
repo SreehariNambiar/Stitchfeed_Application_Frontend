@@ -1,0 +1,77 @@
+.user_header{
+    width:100%;
+    height:auto;
+    /* background:#fff; */
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.post__avatars{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.textx{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.name{
+    background: none;
+    font-family:SF Pro Rounded Heavy;
+    letter-spacing: 0.01ch;
+    font-size: 1.25em;
+    margin-right:10px;
+}
+.userIcons{
+    margin-right:0.75em;
+}
+.sub_textx{
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:SF Pro Rounded Medium;
+    font-size: 1em;
+    width:100%;
+}
+
+.sub_textx ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub_textx ul li:first-child{
+    border-right: 1px solid #fff;;
+}
+.sub_textx ul li{
+    padding-inline: 0.3em;;
+    padding-top: 0.25em;
+}
+
+.ico{
+    width:auto;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #fff; */
+    height:auto;
+    position: relative;
+    
+}
+.svggg{
+    width:1.5em;
+    height:1.5em;
+}
+
